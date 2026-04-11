@@ -11,7 +11,82 @@ body {
   color: var(--brand-dark);
   font-family: Arial, sans-serif;
 }
+.logo-img {
+  height: 120px;   /* increase from 40 → 55 */
+  width: auto;
+  object-fit: contain;
+}
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+.header-inner {
+  min-height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+
+.nav-link-custom {
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ef4444;
+}
+
+.nav-link-custom.active {
+  color: #1e3a8a;
+}
+
+@media (max-width: 991px) {
+  .header-inner {
+    min-height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-nav {
+    gap: 18px;
+  }
+
+  .logo-img {
+    height: 56px;
+  }
+}
 .brand-blue { color: var(--brand-blue); }
 .brand-red { color: var(--brand-red); }
 
