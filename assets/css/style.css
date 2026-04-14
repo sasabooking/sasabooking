@@ -683,4 +683,29 @@ body {
   .contact-form-wrap {
     padding: 24px;
   }
+}/* Contact page improvements */
+.card-icon {
+  width: 64px;
+  height: 64px;
+  font-size: 28px;
+  border-radius: 18px;
+}
+
+.contact-card {
+  padding: 32px;
+  border-radius: 26px;
+  transition: all 0.25s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.color-hero {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 58, 138, 0.08),
+    rgba(239, 68, 68, 0.08)
+  );
 }
