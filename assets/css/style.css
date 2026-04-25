@@ -737,4 +737,26 @@ body {
 
 .icon-partnership {
   background: linear-gradient(135deg, #10b981, #22c55e);
+}/* FINAL FIX: Contact cards must show in 4 columns */
+.contact-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 24px !important;
+  align-items: stretch;
+}
+
+.contact-card {
+  width: 100% !important;
+}
+
+@media (max-width: 991px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
