@@ -708,4 +708,33 @@ body {
     rgba(30, 58, 138, 0.08),
     rgba(239, 68, 68, 0.08)
   );
+}/* 🔥 Contact Icons Premium Style */
+.card-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-bottom: 18px;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.15);
+}
+
+/* Individual icon colors */
+.icon-location {
+  background: linear-gradient(135deg, #ef4444, #f97316);
+}
+
+.icon-phone {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.icon-email {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
+.icon-partnership {
+  background: linear-gradient(135deg, #10b981, #22c55e);
 }
