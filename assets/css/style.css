@@ -737,28 +737,4 @@ body {
 
 .icon-partnership {
   background: linear-gradient(135deg, #10b981, #22c55e);
-}.icon-location {
-  background: linear-gradient(135deg, #ef4444, #f97316);
-}
-
-.icon-phone {
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
-}
-
-.icon-email {
-  background: linear-gradient(135deg, #7c3aed, #6366f1);
-}
-
-.icon-partnership {
-  background: linear-gradient(135deg, #059669, #10b981);
-}
-
-.contact-card a {
-  color: var(--brand-blue);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.contact-card a:hover {
-  color: var(--brand-red);
 }
