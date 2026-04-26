@@ -1054,4 +1054,43 @@ button.send-btn:hover,
   .booking-tabs {
     flex-direction: column;
   }
+}/* FINAL HOME PAGE FIX */
+.hero-content {
+  padding-top: 70px !important;
+  padding-bottom: 90px !important;
+}
+
+.hero-title {
+  font-size: 52px !important;
+  line-height: 1.1 !important;
+}
+
+.booking-wrapper {
+  margin-top: -60px !important;
+}
+
+.btn-search {
+  color: #ffffff !important;
+  background: #1E3A8A !important;
+  font-weight: 800 !important;
+}
+
+.btn-search:hover {
+  color: #ffffff !important;
+  background: #162f6b !important;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding-top: 45px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .hero-title {
+    font-size: 34px !important;
+  }
+
+  .booking-wrapper {
+    margin-top: -20px !important;
+  }
 }
