@@ -867,4 +867,22 @@ body {
 .send-btn:hover {
   background-color: #162f6b;   /* darker on hover */
   color: #ffffff;
+}/* FINAL BUTTON TEXT FIX */
+.contact-form .send-btn,
+.contact-form button.send-btn,
+button.send-btn,
+.btn-search.send-btn {
+  background: #1E3A8A !important;
+  color: #ffffff !important;
+  border: none !important;
+  font-weight: 800 !important;
+  font-size: 18px !important;
+}
+
+.contact-form .send-btn:hover,
+.contact-form button.send-btn:hover,
+button.send-btn:hover,
+.btn-search.send-btn:hover {
+  background: #162f6b !important;
+  color: #ffffff !important;
 }
