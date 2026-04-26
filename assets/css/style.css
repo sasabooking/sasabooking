@@ -856,4 +856,23 @@ body {
   .hero-text {
     font-size: 16px !important;
   }
+}/* Fix button text visibility */
+.btn-search {
+  background: var(--brand-blue);
+  color: #ffffff !important;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/* Hover state */
+.btn-search:hover {
+  background: #162a63;
+  color: #ffffff !important;
+}
+
+/* Make button clearer */
+.btn-search {
+  box-shadow: 0 6px 16px rgba(30, 58, 138, 0.25);
 }
