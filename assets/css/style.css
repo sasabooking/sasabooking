@@ -1270,4 +1270,60 @@ button.send-btn:hover,
     padding: 16px !important;
   }
 
+}/* SAFE HOMEPAGE UPGRADE FOR CURRENT WORKING INDEX */
+.site-header {
+  background: #ffffff !important;
+  box-shadow: 0 2px 14px rgba(15, 23, 42, 0.08);
+}
+
+.hero-section {
+  padding-bottom: 90px !important;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    rgba(15, 23, 42, 0.62),
+    rgba(15, 23, 42, 0.86)
+  ) !important;
+}
+
+.hero-section h1 {
+  font-size: 52px !important;
+  font-weight: 900 !important;
+  text-shadow: 0 6px 20px rgba(0,0,0,0.45);
+}
+
+.search-panel {
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.96),
+    rgba(30, 58, 138, 0.88)
+  ) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 22px 55px rgba(0,0,0,0.35);
+}
+
+.tab-btn {
+  border-radius: 20px !important;
+}
+
+.tab-btn.active,
+.trip-btn.active {
+  background: #EF4444 !important;
+}
+
+.btn-search {
+  background: #1E3A8A !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 34px !important;
+  }
+
+  .search-panel {
+    padding: 18px !important;
+  }
 }
