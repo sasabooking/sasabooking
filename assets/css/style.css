@@ -937,4 +937,47 @@ button.send-btn:hover,
   color: #1E3A8A;
   padding: 8px;
   border-radius: 8px;
+}/* ===== PROFESSIONAL HOME HEADER ===== */
+.top-header {
+  background: linear-gradient(90deg, #1E3A8A 0%, #7c3a78 55%, #EF4444 100%);
+  padding: 10px 0;
+}
+
+.top-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-logo {
+  height: 50px;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.top-link {
+  color: white;
+  text-decoration: none;
+}
+
+.top-link:hover {
+  color: #ffd7d7;
+}
+
+.contact-link {
+  background: white;
+  color: #1E3A8A;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
 }
