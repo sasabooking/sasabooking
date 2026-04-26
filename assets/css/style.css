@@ -892,4 +892,49 @@ button.send-btn:hover,
   margin-top: 10px;
   font-size: 14px;
   opacity: 0.7;
+}/* ===== HEADER STYLE ===== */
+.top-header {
+  background: linear-gradient(90deg, #1E3A8A, #EF4444);
+  color: white;
+  padding: 12px 0;
+}
+
+.top-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-logo {
+  height: 55px;
+  background: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.top-link,
+.contact-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-link {
+  background: white;
+  color: #1E3A8A;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+.app-icon {
+  background: white;
+  color: #1E3A8A;
+  padding: 8px;
+  border-radius: 8px;
 }
