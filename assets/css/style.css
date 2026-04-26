@@ -885,4 +885,9 @@ button.send-btn:hover,
 .btn-search.send-btn:hover {
   background: #162f6b !important;
   color: #ffffff !important;
+}/* HIDE MOBILE APPS COLUMN COMPLETELY */
+.site-footer .footer-column:nth-child(3) {
+  display: none;
+}.site-footer div:nth-child(3) {
+  display: none !important;
 }
