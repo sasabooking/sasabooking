@@ -980,4 +980,78 @@ button.send-btn:hover,
   border-radius: 20px;
   font-weight: bold;
   text-decoration: none;
+}/* ===== HERO IMPROVEMENT ===== */
+.hero-section {
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.hero-content {
+  padding-top: 80px;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.hero-sub {
+  font-size: 20px;
+}
+
+/* ===== BOOKING ===== */
+.booking-wrapper {
+  margin-top: -80px;
+}
+
+.booking-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.booking-tabs button {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(31,41,55,0.9);
+  color: white;
+  font-weight: bold;
+}
+
+.booking-tabs .active {
+  background: #EF4444;
+}
+
+.booking-card {
+  background: rgba(15,23,42,0.9);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.advanced-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ffd7d7;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+
+  .top-actions {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .booking-wrapper {
+    margin-top: -60px;
+  }
+
+  .booking-tabs {
+    flex-direction: column;
+  }
 }

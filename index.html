@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sasa Booking</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,47 +11,91 @@
 
 <body>
 
-<!-- ===== NEW PROFESSIONAL HEADER ===== -->
+<!-- HEADER -->
 <header class="top-header">
   <div class="container top-header-inner">
 
-    <a href="index.html" class="top-brand">
-      <img src="assets/img/sasa_logo.PNG" alt="Sasa Booking Logo" class="top-logo">
+    <a href="index.html">
+      <img src="assets/img/sasa_logo.PNG" class="top-logo">
     </a>
 
     <div class="top-actions">
-      <a href="#" class="app-link">
-  <span class="app-icon">📱</span>
-  <span class="app-text">
-    Sasa Booking <strong>App</strong>
-  </span>
-</a>
-
-      <a href="#" class="top-link">Sign in ▾</a>
-      <a href="#" class="top-link">Recent Search</a>
-
-      <div class="top-select">🇰🇪 ▾</div>
-      <div class="top-select">Currency ▾</div>
-      <div class="top-select">Language ▾</div>
-
+      <span class="top-link">Sign in ▾</span>
+      <span class="top-link">Recent Search</span>
+      <span class="top-link">🇰🇪</span>
+      <span class="top-link">Currency ▾</span>
+      <span class="top-link">Language ▾</span>
       <a href="contact.html" class="contact-link">Contact Us</a>
     </div>
 
   </div>
 </header>
 
-<!-- ===== HERO ===== -->
+<!-- HERO -->
 <section class="hero-section text-white">
   <div class="hero-overlay"></div>
-  <div class="container position-relative py-5">
-    <div class="text-center py-5">
-      <h1 class="display-3 fw-bold">Largest Land, Air & Rail Booking Platform</h1>
-      <p class="lead mt-3">Search and book Flights, Buses, and Trains with one easy platform.</p>
+
+  <div class="container text-center hero-content">
+    <h1 class="hero-title">Largest Land, Air & Rail Booking Platform</h1>
+    <p class="hero-sub">Search and book Flights, Buses, and Trains with one easy platform.</p>
+  </div>
+
+  <!-- BOOKING -->
+  <div class="container">
+    <div class="booking-wrapper">
+
+      <!-- Tabs -->
+      <div class="booking-tabs">
+        <button class="tab-btn active">🚌 Bus</button>
+        <button class="tab-btn">✈️ Flight</button>
+        <button class="tab-btn">🚆 Train</button>
+      </div>
+
+      <!-- Form -->
+      <div class="booking-card">
+
+        <h5 class="text-white mb-3">Bus Tickets</h5>
+
+        <div class="row g-3">
+
+          <div class="col-lg-2 col-12">
+            <input class="form-control form-control-lg" placeholder="From">
+          </div>
+
+          <div class="col-lg-2 col-12">
+            <input class="form-control form-control-lg" placeholder="To">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <input type="date" class="form-control form-control-lg">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <input type="date" class="form-control form-control-lg">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <select class="form-select form-select-lg">
+              <option>1 Pax</option>
+              <option>2 Pax</option>
+            </select>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <button class="btn btn-search w-100 btn-lg">Search</button>
+          </div>
+
+        </div>
+
+        <a href="#" class="advanced-link">Advanced Search</a>
+
+      </div>
     </div>
   </div>
+
 </section>
 
-<!-- ===== FOOTER ===== -->
+<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container py-5">
     <div class="row g-4">
@@ -93,8 +137,6 @@
     </div>
   </div>
 </footer>
-
-<script src="assets/js/app.js"></script>
 
 </body>
 </html>
